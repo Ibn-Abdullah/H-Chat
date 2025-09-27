@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LogInPage";
@@ -35,7 +35,7 @@ const App = () => {
 
 	return (
 		<div data-theme={theme}>
-			<Navbar />
+			<NavBar />
 
 			<Routes>
 				<Route
