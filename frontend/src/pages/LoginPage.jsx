@@ -4,7 +4,7 @@ import AuthImagePattern from "../components/AuthImagePattern";
 import { Link } from "react-router-dom";
 import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare } from "lucide-react";
 
-const LogInPage = () => {
+const LoginPage = () => {
 	const [showPassword, setShowPassword] = useState(false);
 	const [formData, setFormData] = useState({
 		email: "",
@@ -123,4 +123,4 @@ const LogInPage = () => {
 		</div>
 	);
 };
-export default LogInPage;
+export default LoginPage;
