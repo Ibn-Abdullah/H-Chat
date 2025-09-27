@@ -31,6 +31,10 @@ Users can sign up, log in, update their profiles, and chat with friends instantl
 ```bash
 git clone https://github.com/Ibn-Abdullah/H-Chat.git
 cd H-Chat
+
+---
+
+
 ### 2️⃣ Install dependencies
 
 Frontend:
@@ -44,6 +48,8 @@ Backend:
 cd backend
 npm install
 
+---
+
 ### 3️⃣ Setup environment variables
 
 Create a .env file inside backend/ with:
@@ -54,6 +60,8 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
+---
 
 ### 4️⃣ Run the project
 
