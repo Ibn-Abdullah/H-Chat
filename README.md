@@ -88,4 +88,3 @@ npm run dev
 ## 👨‍💻 Author
 Made with ❤️ by **Hazem Abdallah**  
 - [GitHub](https://github.com/Ibn-Abdullah)  
-- [LinkedIn](https://linkedin.com/in/yourprofile)  
