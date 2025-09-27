@@ -31,46 +31,61 @@ Users can sign up, log in, update their profiles, and chat with friends instantl
 ```bash
 git clone https://github.com/Ibn-Abdullah/H-Chat.git
 cd H-Chat
+```
 
 ---
 
-
 ### 2️⃣ Install dependencies
 
-Frontend:
-
+**Frontend:**
+```bash
 cd frontend
 npm install
+```
 
-
-Backend:
-
+**Backend:**
+```bash
 cd backend
 npm install
+```
 
 ---
 
 ### 3️⃣ Setup environment variables
 
-Create a .env file inside backend/ with:
+Create a `.env` file inside `backend/` with:
 
+```env
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+```
 
 ---
 
 ### 4️⃣ Run the project
 
-Backend:
-
+**Backend:**
+```bash
 npm run dev
+```
 
-
-Frontend:
-
+**Frontend:**
+```bash
 npm run dev
+```
 
+---
+
+## 📸 Screenshots
+(Add screenshots here for Login, Chat, Profile page)
+
+---
+
+## 👨‍💻 Author
+Made with ❤️ by **Hazem Abdallah**  
+- [GitHub](https://github.com/Ibn-Abdullah)  
+- [LinkedIn](https://linkedin.com/in/yourprofile)  
